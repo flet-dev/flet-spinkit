@@ -1,2 +1,4 @@
 # flet-spinkit
-Flet extension example control
+FletSpinkit control for Flet
+
+TODO: Add your control documentation here.

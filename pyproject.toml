@@ -1,0 +1,36 @@
+[project]
+name = "flet-spinkit"
+version = "0.1.0"
+description = "FletSpinkit control for Flet"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Flet contributors", email = "hello@flet.dev" }
+]
+dependencies = [
+    "flet>=0.26.0.dev4041",
+]
+
+[project.urls]
+Homepage = "https://flet.dev"
+Documentation = "https://github.com/flet-dev/flet-spinkit"
+Repository = "https://github.com/flet-dev/flet-spinkit"
+Issues = "https://github.com/flet-dev/flet-spinkit/issues"
+
+[tool.setuptools.package-data]
+"flutter.flet_spinkit" = ["**/*"]
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.26.0.dev4041",
+]
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.26.0.dev4041"}
+
+[tool.setuptools]
+license-files = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
