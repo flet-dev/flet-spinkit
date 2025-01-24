@@ -1,7 +1,8 @@
 # flet-spinkit
-FletSpinkit control for Flet
 
-Animated loading indicator based on [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
+FletSpinkit control for Flet.
+
+Animated loading indicator based on [flutter_spinkit](https://pub.dev/packages/flutter_spinkit).
 
 ## Examples
 
@@ -36,7 +37,7 @@ ft.app(main)
 
 ```
 
-<img src="media/spinkit.gif" width="50%" />
+<img src="media/spinkit.gif" width="20%" />
 
 ## Properties
 
