@@ -5,8 +5,6 @@ Animated loading indicator based on [flutter_spinkit](https://pub.dev/packages/f
 
 ## Examples
 
-[Live example](tbd)
-
 ```python
 import flet as ft
 
@@ -38,7 +36,7 @@ ft.app(main)
 
 ```
 
-<img src="/media/spinkit.gif" className="screenshot-20" />
+<img src="media/spinkit.gif" width="50%" />
 
 ## Properties
 
