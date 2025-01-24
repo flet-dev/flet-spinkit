@@ -40,22 +40,10 @@ ft.app(main)
 
 ## Properties
 
-### `clip_behavior`
-
-The `content` will be clipped (or not) according to this option.
-
-Value is of type [`ClipBehavior`](/docs/reference/types/clipbehavior) and defaults to `ClipBehavior.NONE`.
-
 ### `color`
 
-The card's background [color](/docs/reference/colors).
+The color of the indicator.
 
-### `content`
+### `size`
 
-The `Control` that should be displayed inside the card.
-
-This control can only have one child. To lay out multiple children, let this control's child be a control such as [`Row`](/docs/controls/row), [`Column`](/docs/controls/column), or [`Stack`](/docs/controls/stack), which have a children property, and then provide the children to that control.
-
-### `elevation`
-
-Controls the size of the shadow below the card. Default value is `1.0`.
+The size of the indicator in virtual pixels. The default is 100.
