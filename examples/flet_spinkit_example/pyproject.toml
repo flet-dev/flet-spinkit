@@ -8,7 +8,7 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-  "flet-spinkit @ file:///Users/inesa/projects/flet-dev/flet-spinkit",
+  "flet-spinkit @ git+https://github.com/flet-dev/flet-spinkit.git",
   "flet>=0.26.0.dev4041",
 ]
 
